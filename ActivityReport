@@ -1,5 +1,7 @@
 Website quản lý ký túc xá
+Website có 2 đối tượng: Admin vs Nhân viên
 
+(Admin): chỉ admin mới có chức năng này
 Các công việc đã hoàn thành
 // Tuần 1
 * Thiết kế database
@@ -13,14 +15,14 @@ Các công việc đã hoàn thành
   - Đổi mật khẩu
 // Tuần 2
 * Xây dựng các chức năng cho quản lý danh mục
-  + Quản lý nhân viên
+  + Quản lý nhân viên (Admin)
     - Thêm sửa xóa nhân viên
   + Quản lý dịch vụ
     - Thêm sửa xóa dịch vụ
-  + Quản lý nhân viên
-    - Thêm sửa xóa nhân viên
+  + Quản lý phòng
+    - Thêm sửa xóa phòng
     - Tìm kiếm, phân trang 
-    - Import danh sách nhân viên bằng file excel
+    - Import danh sách phòng bằng file excel
     - Download file excel được format sẵn
   + Quản lý sinh viên
     - Thêm sửa xóa sinh viên
@@ -37,4 +39,10 @@ Các công việc đã hoàn thành
   - Thanh toán hóa đơn (Tìm kiếm các hóa đơn theo mã phòng để thanh toán)
   - In hóa đơn (dùng js window.print())
 // Tuần 4:
+* Xây dựng chức năng thống kê (Admin)
 * Chỉnh sửa, bổ sung, hoàn thiện project
+  + Update chức năng đăng nhập
+    - Mã hóa mật khẩu bằng md5
+  + Bổ sung chức năng reset phòng cho quản lý phòng(Admin)
+    - Mỗi năm sẽ reset số sinh viên hiện tại của phòng về 0
+  + Bổ sung chức năng đổi mật khẩu nhân viên cho quản lý nhân viên(Admin)
