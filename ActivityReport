@@ -1,0 +1,42 @@
+Website quản lý ký túc xá
+
+Các công việc đã hoàn thành
+// Tuần 1
+* Thiết kế database
+
+* Xây dựng layout
+
+* Xây dựng chức năng đăng nhập, đăng xuất(session vs cookies)
+
+* Xây dựng chức năng về tài khoản:
+  - Xem thông tin cá nhân
+  - Đổi mật khẩu
+// Tuần 2
+* Xây dựng các chức năng cho quản lý danh mục
+  + Quản lý nhân viên
+    - Thêm sửa xóa nhân viên
+    - Tìm kiếm nhân viên
+  + Quản lý dịch vụ
+    - Thêm sửa xóa dịch vụ
+    - Tìm kiếm dịch vụ
+  + Quản lý nhân viên
+    - Thêm sửa xóa nhân viên
+    - Tìm kiếm, phân trang 
+    - Import danh sách nhân viên bằng file excel
+    - Download file excel được format sẵn
+  + Quản lý sinh viên
+    - Thêm sửa xóa sinh viên
+    - Tìm kiếm, phân trang 
+    - Import danh sách sinh viên bằng file excel
+    - Download file excel được format sẵn
+// Tuần 3
+* Xây dựng chức năng về hợp đồng
+  - Tạo hợp đồng
+  - In hợp đồng (dùng js window.print())
+  
+* Xây dựng chức năng về hóa đơn:
+  - Tạo hóa đơn (tạo sẵn trước các hóa đơn)
+  - Thanh toán hóa đơn (Tìm kiếm các hóa đơn theo mã phòng để thanh toán)
+  - In hóa đơn (dùng js window.print())
+// Tuần 4:
+* Chỉnh sửa, bổ sung, hoàn thiện project
